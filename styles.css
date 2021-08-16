@@ -1,7 +1,29 @@
 body {
-    counter-reset: game;
+    counter-reset: score;
 }
 
-.layer-1 input[type=checkbox]{
-    width: 400px;
+input[type=checkbox] {
+    appearance: none;
+    cursor: pointer;
+    position: relative;
+    width: 80px;
+    height: 130px;
+    top: 0;
+    z-index: 20;
+
 }
+input[type=checkbox]:focus {
+    appearance: none;
+    outline: none;    
+}
+input:checked {
+    counter-increment:score;
+}
+.total-count{
+    text-align: center;
+}
+.total-count::after{
+    content: counter(score);
+}
+
+
