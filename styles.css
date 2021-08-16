@@ -1,0 +1,7 @@
+body {
+    counter-reset: game;
+}
+
+.layer-1 input[type=checkbox]{
+    width: 400px;
+}
