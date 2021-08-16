@@ -10,8 +10,7 @@
         height: 5px;
     }
 }
-
-/*@keyframes layer-1{
+@keyframes layer-1{
     0%{
         height: 450px;
         bottom: 0px;
@@ -30,7 +29,6 @@
         bottom:0px;
     }
 }
-
 @keyframes layer-4{
     0%{
         bottom: 0;
@@ -44,4 +42,18 @@
         bottom:0;
         height:320px; 
     }
-}*/
+}
+@keyframes layer-6{
+    0%{
+        height: 220px;
+        bottom: -40;
+    }
+    25%{
+        height: 150px;
+        bottom: 120px;
+    }
+    100%{
+        height: 220px;
+        bottom: -40px;
+    }
+}

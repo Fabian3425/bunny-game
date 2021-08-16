@@ -20,6 +20,10 @@ input:checked {
     counter-increment:score;
 }
 .total-count{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
     text-align: center;
 }
 .total-count::after{
